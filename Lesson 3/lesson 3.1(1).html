@@ -1,17 +1,71 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style3.1(1).css">
-    <title>Home work 3.1(1)</title>
+
+<style>
+    html, body{
+        margin: 0;
+        padding: 0;
+    }
+    #site{
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    header{
+        background: orange;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    main{
+        background-color: #ccc;
+        flex-grow: 1;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .main-content{
+        background-color: #3d3d3d;
+        width:65%;
+    }
+    aside{
+        width: 32%;
+        background-color: yellow;
+    }
+</style>
 </head>
+
+
 <body>
-<div id="wrap2"></div>
+<div id="site">
+    <header>
+        a
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Item-1</a></li>
+                <li>
 
-<div id="wrap">
-    <div class="a"></div>
-    <div class="b"></div>
+                    <a href="#">Item-2</a></li>
+                <li>
 
-</div>
-</body>
-</html>
+                    <a href="#">Item-3</a></li>
+                <li>
+
+                    <a href="#">Item-4</a></li>
+                <li>
+
+                    <a href="#">Item-5</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main-content">
+            b
+        </div>
+        <aside>
+            c
+        </aside>
+
+    </main>
+
+    <footer>
+
+    </footer>

@@ -21,6 +21,7 @@
 }
 
 .a {
+    box-sizing: content-box;
     border-right: aqua solid 5px;
     background: cornflowerblue;
     width: 100px;
