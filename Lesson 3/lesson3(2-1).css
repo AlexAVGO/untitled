@@ -3,7 +3,9 @@ html, body {
     margin: 0;
 }
 
-* {font-size: 30px;
+* {
+    font-size: 30px;
+    font-family: fantasy;
     box-sizing: border-box;
 }
 
@@ -15,6 +17,7 @@ html, body {
 }
 
 .header {
+    background: #d9eaa4 ;
     border: 1px solid #000;
     margin: 5vh;
     display: flex;
@@ -32,6 +35,7 @@ html, body {
 }
 
 aside {
+    background: #ffb7ff;
     border: 1px solid #000;
     width: 30%;
     display: flex;
@@ -52,7 +56,7 @@ aside {
 
 }
 
-.post {
+.post { background: #9fe2ff;
     margin-bottom: 5vh;
     margin-left: 5vh;
     border: 1px solid #000;
@@ -67,9 +71,9 @@ aside {
     margin-bottom: 0;
 }
 
-.footer {
+.footer { background: #f7f7c3;
     margin: 5vh;;
-   padding: 20px;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
